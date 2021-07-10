@@ -8,7 +8,7 @@ import { LocationsComponent } from './locations/locations.component';
 const routes: Routes = [
   {
     path:'',
-    redirectTo: '/personajes',
+    redirectTo: 'personajes',
     pathMatch: 'full'
   },
   {
@@ -29,7 +29,7 @@ const routes: Routes = [
   },
   {
     path:'**',
-    redirectTo:'/personajes'
+    redirectTo:'personajes'
   }
 ];
 
